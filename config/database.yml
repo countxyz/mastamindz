@@ -17,8 +17,8 @@ development:
   encoding: unicode
   database: mastamindz_development
   pool: 5
-  username: wallyb
-  password: 12345678
+  username: mastamindz_old
+  password: 
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -43,13 +43,13 @@ test:
   encoding: unicode
   database: mastamindz_test
   pool: 5
-  username: wallyb
-  password: 12345678
+  username: mastamindz_old
+  password: 
 
 production:
   adapter: postgresql
   encoding: unicode
   database: mastamindz_production
   pool: 5
-  username: wallyb
-  password: 12345678
+  username: mastamindz_old
+  password: 
